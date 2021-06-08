@@ -1,0 +1,5 @@
+HD Wallet is a digital wallet that automatically generates a hierarchical structure of private and public keys.
+All HD wallets use 12-word master seed keys. 
+Each time this seed is appended by a counter at the end and is used to derive seemingly unlimited new Bitcoin addresses hierarchically and sequentially.
+It has a public address which the user can give to others to receive funds from them, and a private key that the user uses to spend the stored tokens.
+

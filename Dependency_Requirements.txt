@@ -1,0 +1,15 @@
+Dependencies for HD Wallet
+
+import subprocess
+import json
+from dotenv import load_dotenv
+
+from web3 import Web3
+from web3.auto.gethdev import w3
+from web3.middleware import geth_poa_middleware
+
+from bit import wif_to_key
+from bit import PrivateKeyTestnet
+from bit.network import NetworkAPI
+
+from bit import wif_to_key
